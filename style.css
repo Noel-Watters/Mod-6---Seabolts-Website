@@ -1,0 +1,16 @@
+
+
+/* Max height & Center carousel Img */
+.carousel {
+    max-height: 400px; /* Adjust to desired height */
+    overflow: hidden;  /* Keeps img from leaving container */
+    border-radius: 5%;
+    display: flex;     
+    align-items: center; /* Vertically center the content */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* img fits the container without cropping */
+}
